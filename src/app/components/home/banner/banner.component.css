@@ -1,0 +1,31 @@
+#carouselExampleInterval .carousel-item img{
+    transition: none;
+    transform: scale(1);
+  }
+  
+  #carouselExampleInterval .carousel-item.active img{
+    transition: transform 12s linear;
+    transform: scale(1.2);
+  }
+
+
+  .carousel-control-prev-icon {
+    background-color: #0046fb;
+    padding: 12px !important;
+    border-radius: 50%;
+}
+ .carousel-control-next-icon {
+    background-color: #0046fb;
+    padding: 12px !important;
+    border-radius: 50%;
+}
+
+.col-carousel {
+    margin: 20px 0;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 40px;
+    width: 40px;
+    background-size: 50%;
+}

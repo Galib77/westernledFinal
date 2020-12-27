@@ -1,0 +1,68 @@
+
+<h2 class="pt-3"> {{ourProducts}} </h2>
+
+<owl-carousel-o [options]="customOptions">
+    <ng-template carouselSlide>
+        <div class="slide">
+            <img src="{{ledDisplaySrc}}">
+            <h1>LED Display</h1>
+              <div class="services-read-more">
+                 <a routerLink="/led-display">Read More</a>
+            </div>
+        </div>
+    </ng-template>
+    <ng-template carouselSlide>
+        <div class="slide">
+            <img src="{{advertisingSrc}}">
+            <h1>Advertising</h1>
+            <div class="services-read-more">
+                <a routerLink="/advertising">Read More</a>
+            </div>
+        </div>
+    </ng-template>
+    <ng-template carouselSlide>
+        <div class="slide">
+            <img src="{{eventAndStageShowSrc}}">
+            <h1>Event & Stage Showt</h1>
+            <div class="services-read-more">
+                <a routerLink="/event-and-stage-show">Read More</a>
+            </div>
+        </div>
+    </ng-template>
+    <ng-template carouselSlide>
+        <div class="slide">
+            <img src="{{airportAndRailwaySrc}}">
+            <h1>Airport & Railway</h1>
+            <div class="services-read-more">
+                <a routerLink="/airport-and-railway">Read More</a>
+            </div>
+        </div>
+    </ng-template>
+    <ng-template carouselSlide>
+        <div class="slide">
+            <img src="{{mobilevanRoadshowSrc}}">
+            <h1>Mobile Van / Road Show</h1>
+            <div class="services-read-more">
+                <a routerLink="/mobile-van-road-show">Read More</a>
+            </div>
+        </div>
+    </ng-template>
+    <ng-template carouselSlide>
+        <div class="slide">
+            <img src="{{scrollingBoardSrc}}">
+            <h1>Scrolling Boards</h1>
+            <div class="services-read-more">
+                <a routerLink="/scrolling-boards">Read More</a>
+            </div>
+        </div>
+    </ng-template>
+    <ng-template carouselSlide>
+        <div class="slide">
+            <img src="{{threedHalogramSrc}}">
+            <h1>3D Hologram Fan</h1>
+            <div class="services-read-more">
+                <a routerLink="/3d-hologram-fan">Read More</a>
+            </div>
+        </div>
+    </ng-template>
+</owl-carousel-o>

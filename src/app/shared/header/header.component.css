@@ -1,0 +1,116 @@
+.navbar {
+    background-color: #dfe3fb !important;
+    box-shadow: 0px 0px 15px #0b1a72;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+
+.navbar {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.navbar .nav-item {
+  padding: 0px 20px;
+  color: #ffffff;
+}
+.navbar .nav-item button {
+  border: 0px !important;
+  border-radius: 0px !important;
+  outline: none;
+  padding:7px;
+  transition: .5s;
+}
+
+.navbar .nav-item button:focus,
+.navbar .nav-item button:hover {
+  background-color: #ed3237;
+}
+
+
+.navbar .nav-item button:focus, 
+.navbar .nav-item button:hover {
+  border: 0px !important;
+  outline: none;
+}
+.navbar-nav {
+  margin-right: 80px;
+}
+.navbar-nav a {
+    color: #007bff;
+}
+.navbar-nav a:focus,
+.navbar-nav a:hover {
+color: #fa3239;
+}
+
+.navbar-nav > li {
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 600;
+
+  }
+.dropdown-menu {
+  margin-top: 32px !important;
+    font-size: 14px !important;
+   background-color: #007bff;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    border-bottom: 1px solid !important;
+  }
+  .dropdown-menu a {
+    color: #fff !important;
+
+  }
+  .dropdown-menu li {
+    border-bottom: 1px solid !important;
+
+  }
+
+  .dropdown-menu .active a:focus, 
+  .dropdown-menu  a:hover
+  {
+    color:#ed3237 !important;
+
+  }
+
+.navbar-toggler {
+  background-color: #ed3237 !important;
+  color: black !important;
+  outline: none !important;
+  border: none !important;
+  margin-right: 20px;
+}
+
+.navbar .navbar-brand {
+  margin-left: 100px;
+}
+
+.navbar .form-inline button {
+  margin-right: 50px;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.navbar .form-inline button:focus,
+.navbar .form-inline button:hover {
+ outline: none !important;
+ background-color: #ed3237;
+}
+.dropdown-menu a:focus,
+  .dropdown-menu a:hover 
+  {
+    background-color: #fff;
+    
+    
+  }
+    .dropdown-menu a{
+    color: #ffffff;
+    font-size: 14px;
+    border-bottom: 1px solid white !important;
+  }
+.dropdown-menu a:last-child{
+  border-bottom: none !important;
+}

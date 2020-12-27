@@ -1,0 +1,21 @@
+/* .col {
+    background-color: #f1f1f1;
+} */
+.col >div {
+    background-color: #28a745;
+    margin-left: 20px;
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.why-choose-us .fa {
+    color: #fff;
+    text-align: center;
+}
+
+.why-choose-us p {
+    font-size:20px;
+    color:#fff;
+    text-align:center;
+}

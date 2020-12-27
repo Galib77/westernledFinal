@@ -1,0 +1,43 @@
+.card {
+    margin-top: 20px !important;
+}
+
+img {
+    width: 100%;
+}
+
+.slide {
+    padding: 30px;
+}
+
+h1 {
+    font-size: 18px !important;
+}
+
+h2 {
+    font-size: 30px !important;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700 !important;
+    color: #428ab7;
+    word-spacing: 5px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.services-read-more {
+    font-size: 15px !important;
+    background: #4169e1;
+    display: inline-block;
+    padding: 2px 5px;
+    transition: .5s;
+    border-radius: 0px;
+  }
+  
+.services-read-more:focus,
+.services-read-more:hover {
+    background: #ed3237;
+  }
+.services-read-more a {
+    text-decoration: none !important;
+    color: #fff !important;
+  }

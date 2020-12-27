@@ -1,1 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+/* Universal style start */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+section {
+  padding: 40px 0px;
+}
+
+
+p {
+  font-size: 18px;
+  line-height: 32px;
+  text-align: justify;
+  font-family: 'Barlow', sans-serif;
+}
+
+h1 {
+  font-size: 30px !important;
+  text-transform: uppercase;
+  font-weight: 700 !important;
+  color: #428ab7;
+  word-spacing: 5px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+  word-spacing: 5px;
+  font-family: 'Ubuntu', sans-serif;
+}
+a {
+  text-decoration: none !important;
+}
+
+/* Universal style end */
+
+
+.service-section {
+  padding: 80px 0px;
+}
+.service-section .header {
+  color: #428ab7;
+  padding: 5px 5px;
+  font-size: 15px;
+}
+
+
+.service-section h1 {
+  font-size: 25px !important;
+}
+

@@ -1,0 +1,24 @@
+.contact-us-page {
+    background-color: #5cc5ed !important;
+    padding: 10px 5px;
+  }
+
+  .contact-us-page .contact-form .form-control {
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+  }
+  .contact-us-page .contact-form ::placeholder {
+    font-size: 13px;
+  }
+
+  .contact-us-page .contact-form  button {
+    border: none;
+    background-color: #4169e1;
+    box-shadow: none;
+    border-radius: 0;
+  }
+  
+  .form-control.ng-touched.ng-invalid {
+      border: 1px solid red;
+  }

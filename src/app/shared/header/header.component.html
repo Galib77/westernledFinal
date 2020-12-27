@@ -1,0 +1,100 @@
+<header>
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" [routerLink]="['home']"> 
+        <img src="{{imageSrc}}" /> 
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          <i class="fa fa-bars" style="color:#fff; font-size:28px;"></i>
+        </span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" [routerLink]="['home']">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['about']">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="true">
+              Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" [routerLink]="['led-display']">LED Display</a>
+              <a class="dropdown-item" [routerLink]="['advertising']">Advertising</a>
+              <a class="dropdown-item" [routerLink]="['event-and-stage-show']">Event & Stage Show</a>
+              <a class="dropdown-item" [routerLink]="['airport-and-railway']">Airport & Railway</a>
+              <a class="dropdown-item" [routerLink]="['mobile-van-road-show']">Mobile Van / Road Show
+              </a>
+              <a class="dropdown-item" [routerLink]="['scrolling-boards']">Scrolling Boards</a>
+              <a class="dropdown-item" [routerLink]="['3d-hologram-fan']">3D Hologram Fan</a>
+            </div>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" [routerLink]="['gallery']">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['contact']">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+              Quick Enquiry
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+
+<!-- Modal Start -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">Send An Enquiry!</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <form  method="post"  data-toggle="validator"  (submit)="sendEmail($event)">
+        <div class="form-group">
+          <input type="text" class="form-control"  name="name" 
+          placeholder="Enter Name" required="required">
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" name="email"  
+          placeholder="Enter Email" required="required">
+        </div>
+        <div class="form-group">
+          <input type="number" class="form-control" name="phone" 
+          placeholder="Enter Number" required="required">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" name="subject" 
+          placeholder="Enter Subject" required="required">
+        </div>
+
+        <div class="form-group">
+          <textarea class="form-control" rows="3" name="message" 
+          placeholder="Enter Message.." required="required"></textarea>
+        </div>
+        <button 
+          class="btn btn-primary" 
+          (click)="getContactData()" >
+          Submit Enquiry
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Modal End -->

@@ -1,0 +1,19 @@
+.mission-vision {
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url('../../../../assets/images/mission-vision.jpg') no-repeat
+    center center /cover;
+  }
+  
+  .mission-vision img {
+    border: 2px solid red;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #ffffff;
+  
+  }
+  .mission-vision h3 {
+    color: #ffffff;
+  }
+  .mission-vision p {
+    color: #ffffff;
+    padding: 0px 50px;
+  }
